@@ -1,4 +1,16 @@
 # AWS EC2 Instance Setup Guide for Developers
+
+## Table of Contents
+
+- [1. Overview](#overview)
+- [2. Prerequisites](#1-prerequisites)
+- [3. Connecting via SSH](#3-connecting-via-ssh)
+- [4. Configuring Security Groups](#4-configuring-security-groups)
+- [5. Installing Development Tools](#5-installing-devlopment-tools)
+- [6. Monitoring with CloudWatch](#6-montioring-with-cloudwatch)
+- [7. Common Issues & Troubleshooting](#7-common-issues--troubleshooting)
+- [8.Conclusion](#8-conclusion)
+  
 ## Overview
 This guide walks developers through launching and configuring an EC2 instance using the AWS Console.
 ___
@@ -141,6 +153,9 @@ Here are some common issues users may face when launching and connecting to an E
   - Stop the instance
   - Detach and reattach the network interface with **Auto-assign Public IP = Enabled**
   - Or recreate the instance with a public IP
+ 
+## 8. Conclusion
+Great Work! You've completed the full EC2 setup process from launching your instance to condiguring access,installing tools, and monitoring with CloudWatch. You're now ready to build on a foundation as you explore more of AWS. 
    
 
   
