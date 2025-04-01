@@ -16,7 +16,9 @@ Before you begin,make sure you have:
 1.Log in to the [AWS Console](Https://console.aws.amazon.com/)
 2.Navigate to **EC2 > Instance > Launch Instance**
 3.Configiure the following:
--**Name**: 'dev-ec2-instance'
--**AMI**: Amazon Linux 2023 or Ubuntu 22.04 LTS 
--**Instance type**: 't2.micro' (free tier eligible)
+  -**Name**: 'dev-ec2-instance'
+  -**AMI**: Amazon Linux 2023 or Ubuntu 22.04 LTS 
+  -**Instance type**: 't2.micro' (free tier eligible)
+  -**Key pair**: Create new or select existing
+
 
