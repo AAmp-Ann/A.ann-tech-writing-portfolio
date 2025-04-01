@@ -25,4 +25,27 @@ Before you begin,make sure you have:
 4. Click **Launch Instance**
 5. Once initialized,note the **public IPv4 address**
 
+## 3. Connecting via SSH
+
+Once your EC2 instance is running , you can connect to it using SSH (Secure Shell). This allows you to access the server through your terminal.
+
+### Step-by-Step
+
+1. Locate the '.pem' file (your private key) you downlaod when you created the key pair.
+2. Open your terminal.
+3. Navigate to the directory where your '.pem' file is located.
+4. Run the following command to set proper permission on your key file:
+
+   ```bash
+   chmod 400 your-key-name.pem
+
+5. Then connect to the EC2 instance:
+   ```bash   
+   ssh -i your-key-name.pem ec2-user@<your-ec2-ip>
+
+- **Replace your-key-name.pem with your actual file name**.
+- **Replace<your-ec2-ip> with your instance's public IPv4 address (found in the EC2 dashboard)**
+- **If you're using an Ubantu image,change ec2-user to ubantu.**
+  
+
 
