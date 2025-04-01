@@ -73,6 +73,29 @@ Security groups act like virtual firewalls. They control inbound and outbound tr
    - **Type:** HTTP, **Port Range:** 80, **Source:** Anywhere
    - **Type:** HTTPS, **Port Range:** 443, **Source:** Anywahere (Optional)
 6. Click **Save rules** to apply your changes.
+
+## 5. Installing Devlopment Tools
+
+To prepare your EC2 instance for devlopment, You'll need to install commonly used tools like Node.js and Git.
+
+### For amazon Linux 2023:
+
+1. First, update your system packages:
+
+   ```bash
+   sudo yum uodate -y
+
+2. Install Node.js(version 18) and Git:
+   ```bash
+   curl -fsSL https://rpm.nodesource.com/setup_18.x | sudo bash -
+   sudo yum install -y nodejs git
+
+3. Confirm the installations:
+   ```bash
+   node -y
+   git --version
+   
+You should see version numbers in your terminal for both commands.
    
 
   
