@@ -38,9 +38,10 @@ Once your EC2 instance is running , you can connect to it using SSH (Secure Shel
 
    ```bash
    chmod 400 your-key-name.pem
-
+   
 5. Then connect to the EC2 instance:
-   ```bash   
+   
+   ```bash
    ssh -i your-key-name.pem ec2-user@<your-ec2-ip>
 
 - **Replace your-key-name.pem with your actual file name**.
@@ -96,6 +97,27 @@ To prepare your EC2 instance for devlopment, You'll need to install commonly use
    git --version
    
 You should see version numbers in your terminal for both commands.
+
+## 6. Montioring with Cloudwatch
+
+Amazon Cloudwatch allows you to monitor your EC2 instance by collecting and tracking performance metric such as CPU utilization, disk read/writes, and network activity. This section explains how to view and enable basic monitoring using the AWS Console.
+
+### How to Enable Montoring in the AWS Console:
+
+1. Go to the AWS Console and navigate to **EC2 > Instances**.
+2. Seleict your instance and click the **Montoring** tab.
+3. Click **View in CloudWatch** to open the Cloudwatch dashboard.
+4. To enable more detailed montoring ( 1-minute intervals ):
+   - Click **Actions > Monitor and troubleshoot > Manage detailed monitoring**
+   - Choose **Enable** and click **Save**
+5. Once enabled, return to the **Monitoring** tab to view updated metric like:
+   - CPUUtilization
+   - NetworkIn / NetworkOut
+   - DiskReadOps / DiskWriteOps
+  
+Note: Basic monitoring is enabled by default (5-minute intervals,Detailed monitoring offers more granular data,but may incur additional costs.
+     
+
    
 
   
