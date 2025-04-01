@@ -3,5 +3,5 @@ Welcome! This is curated collection of cloud-focused technical writing samples.E
 
 ## Projects
 
--[AWS EC2 Instance Setuo Guide](./aws-ec2-setup-guide/README.ed)
+-[AWS EC2 Instance Setuo Guide](./aws-ec2-setup-guide/README.md)
 *A step-by-step Tutorial for launching and configuring an EC2 instance in AWS.*
