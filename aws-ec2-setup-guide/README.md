@@ -117,7 +117,30 @@ Amazon Cloudwatch allows you to monitor your EC2 instance by collecting and trac
   
 Note: Basic monitoring is enabled by default (5-minute intervals).Detailed monitoring offers more granular data,but may incur additional costs.
      
+### 7. Common Issues & Troubleshooting
 
+Here are some common issues users may face when launching and connecting to an EC2 instance,along with simple fixies.
+
+- **Permission denied (publickey)**
+  This usually means your `.pem` file is missins,not set to the right permissions, or you're using the wrong username   (e.g., `ubuntu` vs `ec2-user`).
+**Fixes:** Make sure your key file is present,run `chmod 400 your-key.pem`, and double-check your login user.
+
+- **Connection timed out**
+  Your sercurity group might not allow SSH access.
+  **Fix:** Go to your EC2 instance's security group and confrim that **port 22** is open to your IP address.
+
+- **Wrong AMI user**
+  If you're using the wrong username (Like `ec2-user` instead of `ubuntu`), the SSH login will fail.
+  **Fix:**
+  - For Amazon Linux: use `ec2-user`
+  - For Ubuntu: use `ubuntu`
+
+- **Missing public IPv4 address**
+  You won't be able to connect if your instance doesn't have a public IP.
+  **Fix:**
+  - Stop the instance
+  - Detach and reattach the network interface with **Auto-assign Public IP = Enabled**
+  - Or recreate the instance with a public IP
    
 
   
