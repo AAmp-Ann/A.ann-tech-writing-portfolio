@@ -46,6 +46,37 @@ Once your EC2 instance is running , you can connect to it using SSH (Secure Shel
 - **Replace your-key-name.pem with your actual file name**.
 - **Replace<your-ec2-ip> with your instance's public IPv4 address (found in the EC2 dashboard)**
 - **If you're using an Ubantu image,change ec2-user to ubantu.**
+
+## 4. Configuring Security Groups
+
+Security groups act like virtual firewalls. They control inbound and outbound traffic to your EC2 instance and help secure your cloud enviroment.
+
+### Common Ports to Configure:
+
+- **SSH (Port 22):** Used to access your instance from the terminal.
+  Best practice : Only allow your personal IP address.
+ 
+- **HTTP (Port 80):** Used to host a website or web server.
+  This can be open to everyone (0.0.0.0/0) for testing public access.
+
+- **HTTPS (Port 443):** Used for secure websites with SSL/TLS encryption.
+  Optional,depending on whether you're using HTTPS.
+
+### How to Configure in the AWS Console:
+
+1. In the AWS Console, go to **EC2 > Instances** and select your instance.
+2. Scroll down to the **Description** tab and find the **Security groups** section.
+3. Click the name of the sercurity group linked to your instance.
+4. Under the **Inbound rules** tab, click **Edit inbound rules**.
+5. Add the following rules:
+   - **Type:** SSH, **Port Range:** 22, **Source:** My IP
+   - **Type:** HTTP, **Port Range:** 80, **Source:** Anywhere
+   - **Type:** HTTPS, **Port Range:** 443, **Source:** Anywahere (Optional)
+6. Click **Save rules** to apply your changes.
+   
+
+  
+ 
   
 
 
