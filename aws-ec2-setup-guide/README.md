@@ -115,7 +115,7 @@ Amazon Cloudwatch allows you to monitor your EC2 instance by collecting and trac
    - NetworkIn / NetworkOut
    - DiskReadOps / DiskWriteOps
   
-Note: Basic monitoring is enabled by default (5-minute intervals,Detailed monitoring offers more granular data,but may incur additional costs.
+Note: Basic monitoring is enabled by default (5-minute intervals).Detailed monitoring offers more granular data,but may incur additional costs.
      
 
    
