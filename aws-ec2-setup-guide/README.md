@@ -23,6 +23,8 @@ Before you begin,make sure you have:
 
 ## 2. Launching and EC2 Instance 
 
+![EC2 dashboard showing Launch Instsnce button](ec2-launch-instance.png)
+
 ### Step-by-Step
 
 1. Log in to the [AWS Console](Https://console.aws.amazon.com/)
@@ -38,6 +40,8 @@ Before you begin,make sure you have:
 5. Once initialized,note the **public IPv4 address**
 
 ## 3. Connecting via SSH
+
+![EC2 instance details showing Public IPv4 address](ec2-instance-details.png)
 
 Once your EC2 instance is running , you can connect to it using SSH (Secure Shell). This allows you to access the server through your terminal.
 
@@ -61,6 +65,8 @@ Once your EC2 instance is running , you can connect to it using SSH (Secure Shel
 - **If you're using an Ubantu image,change ec2-user to ubantu.**
 
 ## 4. Configuring Security Groups
+
+![Inbound rules showing port 22 open to 0.0.0.0/0](security-group-inbound-rules.png)
 
 Security groups act like virtual firewalls. They control inbound and outbound traffic to your EC2 instance and help secure your cloud enviroment.
 
@@ -111,6 +117,8 @@ To prepare your EC2 instance for devlopment, You'll need to install commonly use
 You should see version numbers in your terminal for both commands.
 
 ## 6. Montioring with Cloudwatch
+
+![Cloudwatch monitoring tab with instance metrics](cloudwatch-monitoring.png)
 
 Amazon Cloudwatch allows you to monitor your EC2 instance by collecting and tracking performance metric such as CPU utilization, disk read/writes, and network activity. This section explains how to view and enable basic monitoring using the AWS Console.
 
