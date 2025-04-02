@@ -5,3 +5,5 @@ Welcome! This is a curated collection of technical writing samples. Each project
 
 ### [AWS EC2 Instance Setup Guide](aws-ec2-setup-guide/README.md)
 A detailed step-by-step guide for launching, configuring and monitoring an EC2 instance using AWS.Covers sercurity groups,SSH access,development tool installation, and troubleshooting.
+
+
