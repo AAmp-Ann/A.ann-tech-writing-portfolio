@@ -120,7 +120,7 @@ You should see version numbers in your terminal for both commands.
 
 ![Cloudwatch monitoring tab with instance metrics](cloudwatch-monitoring.png)
 
-Amazon Cloudwatch allows you to monitor your EC2 instance by collecting and tracking performance metric such as CPU utilization, disk read/writes, and network activity. This section explains how to view and enable basic monitoring using the AWS Console.
+Amazon Cloudwatch helps monitor your EC2 instance by collecting and visualizing performance metrics like CPU utilization, disk read/writes, and network activity. This section explains how to view and enable basic monitoring using the AWS Console.
 
 ### How to Enable Montoring in the AWS Console:
 
