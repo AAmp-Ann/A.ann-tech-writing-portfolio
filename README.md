@@ -1,5 +1,5 @@
 # Cloud Technical Writing Portfolio 
-Welcome! This is a curated collection of cloud-focused technical writing samples.Each project demonstates clear instructional wriiting ,documentation structure,and practical knowledge of cloud platforms such as AWS and GCP.
+Welcome! This is a curated collection of cloud-focused technical writing samples. Each project demonstrates clear instructional writing,documentation structure,and practical knowledge of cloud platforms such as AWS and GCP.
 
 ## Projects
 
@@ -8,4 +8,4 @@ A detailed step-by-step guide for launching,configuring and monitoring an EC2 in
 
 ## About This Portfolio
 
-This portfilio was created to demonstrate technical writing skills in a cloud engineering context. It emphasizes clarity, structure, and support for real users performing technical tasks. The content is written in Markdown and organized for use on GitHub a professional documentation sample.
+This portfolio was created to demonstrate technical writing skills in a cloud engineering context. It emphasizes clarity, structure, and support for real users performing technical tasks. The content is organized for use on GitHub a professional documentation sample.
