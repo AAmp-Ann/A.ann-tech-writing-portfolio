@@ -4,7 +4,7 @@ This tutorial walks you through how to create a Google Cloud Storage bucket and 
 
 ## Prerequisites 
 
-- A Google Cloud accounr
+- A Google Cloud account
 - Billing enabled for your project
 - The Google Cloud Console
 
