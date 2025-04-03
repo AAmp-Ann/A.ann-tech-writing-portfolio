@@ -1,12 +1,12 @@
 # Cloud Technical Writing Portfolio 
-Welcome! This is a curated collection of technical writing samples. Each project demonstrates clear instructional writing, documentation structure, and practical knowledge of cloud platforms such as AWS and GCP.
+Welcome! This is a curated collection of technical writing samples that showcase clear instructional writing, organized documentation structure, and practical knowledge of cloud platforms including AWS and GCP.
 
 ## Projects
 
 - [AWS EC2 Instance Setup Guide](aws-ec2-setup-guide/README.md)
-A detailed step-by-step guide for launching, configuring and monitoring an EC2 instance using AWS.Covers sercurity groups,SSH access,development tool installation, and troubleshooting.
+A detailed step-by-step guide for launching, configuring, and monitoring an EC2 instance using AWS. Covers security groups, SSH access, development tool installation, and troubleshooting.
 
-- **GCP Cloud Storage Docs(Diàtaxis Framwork)**:
+- **GCP Cloud Storage Docs (Diátaxis Framework)**:
   - [Tutorial: Upload File via Console](gcp-cloud-storage-tutorial/README.md)
   - [How-to Guide: Make a Bucket Public via CLI](gcp-cloud-storage-how-to/README.md)
   - [Reference: Bucket Settings](gcp-cloud-storage-reference/README.md)
