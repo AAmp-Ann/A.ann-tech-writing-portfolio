@@ -1,4 +1,4 @@
-# Cloud Technical Writing Portfolio 
+# Technical Writing Portfolio 
 Welcome! This is a curated collection of technical writing samples that showcase clear instructional writing, organized documentation structure, and practical knowledge of cloud platforms including AWS and GCP.
 
 ## Projects
