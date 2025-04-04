@@ -163,7 +163,7 @@ Here are some common issues users may face when launching and connecting to an E
   - Or recreate the instance with a public IP
  
 ## 8. Conclusion
-Great Work! You've completed the full EC2 setup process from launching your instance to condiguring access,installing tools, and monitoring with CloudWatch. You're now ready to build on a foundation as you explore more of AWS. 
+Great Work! You've completed the full EC2 setup process from launching your instance to condiguring access,installing tools, and monitoring with CloudWatch. You're now ready to build on a foundation as you explore more of AWS.
    
 
   
