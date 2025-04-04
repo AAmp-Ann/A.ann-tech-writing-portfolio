@@ -1,6 +1,6 @@
 # Technical Writing Portfolio - A.Ann
 
-Welcome! This is a curated portfolio of technical writing samples that showcase instructional clarity, user-first guidance, and well-structured documentation. Projects range from cloud-based deployments to product support and UX writing demonstrating versatility across technical and non-technical audiences.
+Welcome! This is a curated portfolio of technical writing samples that showcase instructional clarity, user-first guidance, and well-structured documentation. Projects range from cloud-based deployments to product support and UX writing, demonstrating versatility across technical and non-technical audiences.
 
 ---
 
