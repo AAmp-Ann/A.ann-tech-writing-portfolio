@@ -26,3 +26,6 @@ A four-part documentation project using the Diátaxis framework to showcase conc
 A user-focused writing sample for a fictional task management app. Includes onboarding copy, tooltips, empty state messages, and error confirmations—written for clarity and ease of use by non-technical users.
 
 ---
+
+### [Internal IT Setup Guide — CompanyConnect Email and VPN](companyconnect-it-setup-guide/README.md)  
+An internal documentation sample for onboarding new employees. Provides step-by-step instructions for setting up company email and secure VPN access, written in plain language for a non-technical audience.
